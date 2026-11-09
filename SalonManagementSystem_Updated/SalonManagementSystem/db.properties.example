@@ -1,0 +1,8 @@
+# Database settings for Beauty Bloom Salon (keep this file private; it is not part of the source code).
+# You can also use environment variables instead: SALON_DB_HOST, SALON_DB_PORT, SALON_DB_NAME,
+# SALON_DB_USER, SALON_DB_PASSWORD
+db.host=localhost
+db.port=3306
+db.name=salon_db
+db.user=root
+db.password=

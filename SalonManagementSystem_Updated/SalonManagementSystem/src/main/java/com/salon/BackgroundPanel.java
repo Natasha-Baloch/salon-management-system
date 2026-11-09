@@ -15,13 +15,13 @@ import java.util.Random;
  */
 public class BackgroundPanel extends JPanel {
 
-    private static final String[] GLYPHS = {"✂", "✨", "💇", "💅", "🌸", "💄", "🌺", "✦"};
+    private static final String[] GLYPHS = {"✂", "✿", "❀", "✦", "♡", "✧"};
     private final long seed;
 
     public BackgroundPanel(LayoutManager layout, long seed) {
         super(layout);
         this.seed = seed;
-        setOpaque(true);
+        setOpaque(false);   // the gradient below paints the whole panel itself
     }
 
     public BackgroundPanel(LayoutManager layout) {
